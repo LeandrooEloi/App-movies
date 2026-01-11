@@ -53,7 +53,9 @@ A chave do TMDB não está versionada no repositório. Ela deve ser passada via 
 ## Estrutura (resumo)
 
 lib/views/ → telas (UI)
+
 lib/viewmodels/ → regras da tela/estado
+
 lib/services/ ou lib/data/ → chamadas HTTP e integração com API
 
 ## Autor
