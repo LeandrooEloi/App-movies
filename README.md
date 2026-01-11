@@ -45,18 +45,18 @@ flutter run --dart-define=TMDB_KEY=SUA_CHAVE_AQUI
 flutter build apk --release --dart-define=TMDB_KEY=SUA_CHAVE_AQUI
 ```
 
-##Segurança da chave
+## Segurança da chave
 
 A chave do TMDB não está versionada no repositório. Ela deve ser passada via --dart-define (recomendado) para evitar expor credenciais no GitHub.
 
 
-##Estrutura (resumo)
+## Estrutura (resumo)
 
 lib/views/ → telas (UI)
 lib/viewmodels/ → regras da tela/estado
 lib/services/ ou lib/data/ → chamadas HTTP e integração com API
 
-Autor
+## Autor
 Leandro Oliveira
 GitHub: https://github.com/LeandrooEloi
 
