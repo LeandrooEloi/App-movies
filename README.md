@@ -6,7 +6,8 @@ App mobile feito em Flutter para explorar filmes usando a API do TMDB: listas (P
 > Coloque prints em `assets/screenshots/` e referencie aqui.
 
 <img src="assets/screenshots/home.jpg" height="420" alt="Home"/>
-<img src="assets/screenshots/details.jpg" height="420" alt="Detalhes"/>
+<img src="assets/screenshots/favoritos.jpg" height="420" alt="Detalhes"/>
+<img src="assets/screenshots/assistir_depois.jpg" height="420" alt="Detalhes"/>
 
 
 ## Funcionalidades
