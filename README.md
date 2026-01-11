@@ -11,9 +11,9 @@ App mobile feito em Flutter para explorar filmes usando a API do TMDB: listas (P
     <td align="center"><b>Assistir depois</b></td>
   </tr>
   <tr>
-    <td><img src="assets/screenshots/home.jpg" width="240" alt="Home"/></td>
-    <td><img src="assets/screenshots/favoritos.jpg" width="240" alt="Favoritos"/></td>
-    <td><img src="assets/screenshots/assistir_depois.jpg" width="240" alt="Assistir depois"/></td>
+    <td><img src="assets/screenshots/home.jpg" width="260" alt="Home"/></td>
+    <td><img src="assets/screenshots/favoritos.jpg" width="260" alt="Favoritos"/></td>
+    <td><img src="assets/screenshots/assistir_depois.jpg" width="260" alt="Assistir depois"/></td>
   </tr>
 </table>
 
