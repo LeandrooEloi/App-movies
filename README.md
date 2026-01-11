@@ -4,12 +4,18 @@ App mobile feito em Flutter para explorar filmes usando a API do TMDB: listas (P
 
 ## Preview
 
-##Tela Home
-<img src="assets/screenshots/home.jpg" height="420" alt="Home"/>
-##Tela Favoritos
-<img src="assets/screenshots/favoritos.jpg" height="420" alt="Detalhes"/>
-##Tela Assistir Depois
-<img src="assets/screenshots/assistir_depois.jpg" height="420" alt="Detalhes"/>
+<table>
+  <tr>
+    <td align="center"><b>Home</b></td>
+    <td align="center"><b>Favoritos</b></td>
+    <td align="center"><b>Assistir depois</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/home.jpg" width="240" alt="Home"/></td>
+    <td><img src="assets/screenshots/favoritos.jpg" width="240" alt="Favoritos"/></td>
+    <td><img src="assets/screenshots/assistir_depois.jpg" width="240" alt="Assistir depois"/></td>
+  </tr>
+</table>
 
 
 ## Funcionalidades
@@ -33,10 +39,11 @@ App mobile feito em Flutter para explorar filmes usando a API do TMDB: listas (P
 ```bash
 flutter pub get
 flutter run --dart-define=TMDB_KEY=SUA_CHAVE_AQUI
-
+```
 ## Build (APK release)
+```bash
 flutter build apk --release --dart-define=TMDB_KEY=SUA_CHAVE_AQUI
-
+```
 ##Segurança da chave
 A chave do TMDB não está versionada no repositório. Ela deve ser passada via --dart-define (recomendado) para evitar expor credenciais no GitHub.
 
