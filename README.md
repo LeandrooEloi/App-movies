@@ -18,24 +18,24 @@ App mobile feito em Flutter para explorar filmes usando a API do TMDB: listas (P
 </table>
 
 
-### Funcionalidades
+## Funcionalidades
 - Listas: Populares, Bem avaliados e Em cartaz
 - Tela de detalhes com sinopse e gêneros
 - Favoritar e Assistir depois (salvos localmente)
 - Cache de imagens (posters/backdrops) via `cached_network_image`
 
-### Tecnologias
+## Tecnologias
 - Flutter / Dart
 - Provider (gerenciamento de estado)
 - TMDB API
 - CachedNetworkImage (cache de imagens)
 
-### Como rodar (desenvolvimento)
+## Como rodar (desenvolvimento)
 ### Pré-requisitos
 - Flutter instalado
 - Uma chave da API do TMDB
 
-### Rodando o app
+## Rodando o app
 ```bash
 flutter pub get
 flutter run --dart-define=TMDB_KEY=SUA_CHAVE_AQUI
@@ -45,12 +45,12 @@ flutter run --dart-define=TMDB_KEY=SUA_CHAVE_AQUI
 flutter build apk --release --dart-define=TMDB_KEY=SUA_CHAVE_AQUI
 ```
 
-### Segurança da chave
+## Segurança da chave
 
 A chave do TMDB não está versionada no repositório. Ela deve ser passada via --dart-define (recomendado) para evitar expor credenciais no GitHub.
 
 
-### Estrutura (resumo)
+## Estrutura (resumo)
 
 lib/views/ → telas (UI)
 
